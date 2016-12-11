@@ -1,6 +1,12 @@
 @font-face{
-	font-family: projectFont;
-	src:url(fonts\WebFonts\fonts\woff\IRANSansWeb.woff);
+    font-family: 'projectFont';
+    font-style: normal;
+    font-weight: 300;
+    src: url('fonts/WebFonts/fonts/eot/IRANSansWeb_Light.eot');
+    src: url('fonts/WebFonts/fonts/eot/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+         url('fonts/WebFonts/fonts/woff2/IRANSansWeb_Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+         url('fonts/WebFonts/fonts/woff/IRANSansWeb_Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+         url('fonts/WebFonts/fonts/ttf/IRANSansWeb_Light.ttf') format('truetype');
 }
 /* line 45, sass/libs/_normalize.scss */
 article,
@@ -44,7 +50,7 @@ button,
 input,
 select,
 textarea {
-  font-family: projectFont; }
+  font-family: 'projectFont'; }
 
 /* line 119, sass/libs/_normalize.scss */
 body {
@@ -64,7 +70,6 @@ a {
 /* line 159, sass/libs/_normalize.scss */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
   line-height: normal; }
 
 /* line 165, sass/libs/_normalize.scss */
@@ -120,7 +125,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: projectFont;
+  font-family: 'projectFont';
   font-size: 1em; }
 
 /* line 252, sass/libs/_normalize.scss */
@@ -188,7 +193,7 @@ button,
 input,
 select,
 textarea {
-  font-family: projectFont;
+  font-family: 'projectFont';
   font-size: 100%;
   margin: 0;
   vertical-align: baseline; }
@@ -258,7 +263,7 @@ table {
 body {
   background-color: #154360;
   color: #FFF;
-  font-family: projectFont;
+  font-family: 'projectFont';
   font-size: 16px;
   line-height: 24px; }
 
