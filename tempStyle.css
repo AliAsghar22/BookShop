@@ -146,3 +146,16 @@
     border: 1px solid #888;
     width: 50%; /* Could be more or less, depending on screen size */
 }
+
+.Error404Class{
+    width: 800px;
+    margin:0 auto;
+    text-align: center;
+}
+.basketError{
+    direction: rtl;
+    margin: 50px 0;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(186,74,0);
+}
