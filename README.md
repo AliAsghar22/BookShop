@@ -29,7 +29,7 @@
  
  installing requirements:
  
- pip install -r /path/to/requirements.txt
+ pip install -r requirements.txt
  
  
  starting new app:
