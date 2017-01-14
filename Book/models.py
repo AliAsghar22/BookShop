@@ -22,6 +22,7 @@ class Book(models.Model):
     publisher = models.ForeignKey(Publisher)
     publication_date = models.DateField()
     photo = models.ImageField(upload_to='bookImages')
+
     def __str__(self):
         return '%s , %s' % (self.title, self.publisher)
 
