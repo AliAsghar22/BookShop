@@ -10,20 +10,32 @@
  
  دستورات لازم:
  
+ 
  installing virtual environment:
+ 
  pip install virtualenv
  
+ 
  creating virtual environment:
+ 
  virtualenv venv
  
+ 
  using virtual environment:
+ 
  on linux: source venv/bin/activate
+ 
  on windows: .\venv\Scripts\activate
  
+ 
  starting new app:
+ 
  python startapp newapp
  
+ 
  making migrations:
+ 
  python manage.py makemigrations
+ 
  python manage.py migrate
 
