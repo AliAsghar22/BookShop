@@ -27,6 +27,10 @@
  
  on windows: .\venv\Scripts\activate
  
+ installing requirements:
+ 
+ pip install -r /path/to/requirements.txt
+ 
  
  starting new app:
  
