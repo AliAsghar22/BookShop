@@ -21,7 +21,7 @@
  
  creating virtual environment:
  
-  ```bash
+ ```bash
  virtualenv venv
  ```
  
@@ -29,30 +29,30 @@
  using virtual environment:
  
  on linux:
-  ```bash
-  source venv/bin/activate
-  ```
+ ```bash
+ source venv/bin/activate
+ ```
  on windows:
  
-  ```bash
-  .\venv\Scripts\activate
-  ``` 
+ ```bash
+ .\venv\Scripts\activate
+ ``` 
  installing requirements:
  
-  ```bash
-  pip install -r requirements.txt
-  ```
+ ```bash
+ pip install -r requirements.txt
+ ```
  
  starting new app:
  
-  ```bash
-   python startapp newapp
-  ```
+ ```bash
+ python startapp newapp
+ ```
  
  making migrations:
  
-  ```bash
+ ```bash
  python manage.py makemigrations
  
  python manage.py migrate
-```
+ ```
