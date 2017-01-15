@@ -13,33 +13,35 @@
  
  installing virtual environment:
  
- pip install virtualenv
+ ```pip install virtualenv
+ ```
  
  
  creating virtual environment:
  
- virtualenv venv
+ ```virtualenv venv
+ ```
  
  
  using virtual environment:
  
- on linux: source venv/bin/activate
- 
- on windows: .\venv\Scripts\activate
- 
+ on linux: ```source venv/bin/activate
+```
+ on windows: ```.\venv\Scripts\activate
+``` 
  installing requirements:
  
- pip install -r requirements.txt
- 
+ ```pip install -r requirements.txt
+ ```
  
  starting new app:
  
- python startapp newapp
- 
+ ```python startapp newapp
+ ```
  
  making migrations:
  
- python manage.py makemigrations
+ ```python manage.py makemigrations
  
  python manage.py migrate
-
+```
