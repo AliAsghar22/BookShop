@@ -18,4 +18,4 @@ build/
 tests/report/
 .idea/
 db.sqlite3
-Book/migrations/0001_initial.py
+Book/migrations/
