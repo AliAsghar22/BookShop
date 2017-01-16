@@ -26,9 +26,13 @@ class Book(models.Model):
     authors = models.ManyToManyField(Author)
     publisher = models.ForeignKey(Publisher)
     publication_date = models.DateField()
-    photo = models.ImageField(upload_to='bookImages')
+    photo = models.ImageField(upload_to='Book/static')
+    score = models.FloatField(max_length=5)
 
     def __str__(self):
         return '%s , %s' % (self.title, self.publisher)
 
-# Create your models here.
+
+class ChosenBooks(models.Model):
+    number = models.IntegerField(max_length=2)
+    book = models.OneToOneField(Book, on_delete=models.CASCADE, )
